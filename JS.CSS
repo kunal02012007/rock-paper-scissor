@@ -1,0 +1,103 @@
+body{
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(to right,red,black,orange);
+    height: 100vh;
+    
+    
+}
+h1{
+    font-weight: bolder;
+    color: azure;
+    font-size: xx-large;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#rock{
+    
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-image: url(ROCK.png);
+    background-color: purple;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#paper{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-image: url(PAPER.png);
+    background-color: purple;
+     background-repeat: no-repeat;
+    background-position: center;
+}
+#scissors{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: purple;
+    background-image: url(SCISSORS.png);
+     background-repeat: no-repeat;
+    background-position: center;
+}
+#game{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    border-radius: 50%;
+   
+}
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+p{
+   
+    height: 20px;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: oblique;
+    font-variant: small-caps;
+ 
+ 
+    color: antiquewhite;
+}
+#rock:hover{
+    cursor: pointer;
+    background-color: rgb(161, 161, 161);
+    
+    
+}
+#paper:hover{
+    cursor: pointer;
+    background-color: rgb(90, 109, 202);
+    
+}
+#scissors:hover{
+    cursor: pointer;
+    background-color: rgb(5, 122, 40);
+   
+    
+}
+#msg{
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(to right ,rgba(250, 95, 95, 0),rgba(255, 166, 0, 0)) ;
+    display: inline;
+    padding: 10px;
+    border-radius:10px;
+    
+}
+
+#userscore,#compscore{
+    font-size:4rem;
+    gap: 20px;
+}
